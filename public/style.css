@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  /* margin: auto; */
+}
+
+body {
+  background-color: #2596be;
+  padding: 5vh 5vh 5vh 5vh;
+}
+
+.main {
+  /* margin: 40px 40px 40px 40px; */
+  background-color: white;
+  min-height: 90vh;
+  max-height: 90vh;
+  overflow: hidden;
+  overflow-y: scroll;
+  overflow-x: scroll;
+}
+
+.main::-webkit-scrollbar {
+  display: none;
+}

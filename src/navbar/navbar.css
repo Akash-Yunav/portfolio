@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  /* margin: auto; */
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  padding: 40px;
+  /* background-color: rgb(14, 14, 73); */
+}
+.logo {
+  font-family: Montserrat;
+  font-size: 50px;
+  color: #41c89d;
+}
+.logo:hover {
+  cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+}
+.btn-login {
+  margin-right: 10px;
+}
+.btn {
+  padding: 5px;
+  padding: 5px 15px 5px 15px;
+  background-color: rgb(180, 15, 92);
+  margin-top: 14px;
+  color: rgb(235, 232, 232);
+  border: none;
+  border-radius: 5px;
+  font-style: bold;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.elements {
+  display: flex;
+  margin-top: 14px;
+  flex-flow: row wrap;
+  /* width: 800px; */
+  font-family: "Source Sans Pro", sans-serif;
+  justify-content: space-around;
+  margin: 10px;
+  /* background-color: blue; */
+}
+
+.elem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  padding: 10px;
+  color: rgb(109, 94, 105);
+  font-size: 17px;
+  font-style: bold;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.elem:hover {
+  color: #2596be;
+  cursor: pointer;
+}
+
+.contact-elem:hover {
+  background-color: #2596be;
+  color: white;
+}
+/* Button GRAD */
+
+.btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #cf0778 0%,
+    rgb(212, 75, 139) 51%,
+    #cf2c6a 100%
+  );
+}
+.btn-grad {
+  margin: 10px;
+  padding: 10px 25px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  /* display: block; */
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}

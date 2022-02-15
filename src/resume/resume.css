@@ -1,0 +1,12 @@
+.resume-div {
+  /* background-color: blue; */
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.scroll-image {
+  width: 40px;
+  height: 40px;
+}
